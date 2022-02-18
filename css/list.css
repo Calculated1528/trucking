@@ -1,0 +1,268 @@
+body{
+font-family: Corbel;
+background-color: f2fcff;
+}
+
+.main-header{
+	width:100%;
+	height: 100px;
+	background-color: #f2fcff;
+	float: left;
+}
+
+.logo{
+	width:33%;
+	height: 170px;
+	float: left;
+	display: table; 
+	
+}
+
+.slogan{
+	width: 33%;
+	height: 170px;
+	float: left;
+	font-family: Corbel;
+	color: #3969aa;
+}
+
+.contacts{
+	width: 30%;
+	height: 170px;
+	float: left;
+}
+
+.main-menu{
+	width: 100%;
+	height: 40px;
+	margin-top: 5px;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position:center;
+	font-family: Corbel;
+	font-size: 20px;
+	float:left;
+}
+
+.container-nav{
+	width: 100%;
+	height: 40px;
+	background-color: #3969aa;
+}
+	
+.menu-ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+    justify-content: space-between;
+	
+}
+
+.main-menu-item{
+	display: inline;
+	margin: 0px;
+	margin: 0 auto;
+}
+
+.main-menu-red-link{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+}
+.blue-link{
+margin: 6 auto;
+}
+.main-menu-link{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+}
+
+
+/*рег-авт*/
+.reg-auth{
+	margin-left: 40%;
+	margin-right: 40%;
+	font-family: Corbel;
+	font-size: 14px;
+	color: #3969aa;
+	}	
+.title-reg-auth{
+	font-weight: Bold;
+	text-align: center;
+	font-family: Corbel;
+	color: #3969aa;
+
+}	
+
+.txt-reg-auth{
+	font-family: Corbel;
+	font-size: 14px;
+	font-weight: Bold;
+	color: #3969aa;
+	
+}
+
+.btn-reg-auth{
+	background: #3969aa;
+	font-family: Corbel;
+	font-size: 14px;
+	font-weight: Bold;
+	color: #F2FCFF;
+	outline: none;
+	border: 0;
+	}
+.link-reg{
+font-family: Corbel;
+font-size: 14px;
+font-weight: Bold;
+text-decoration: none;
+color: #3969aa;
+}	
+.link-reg:hover{
+text-decoration: underline;
+}
+/**/
+
+
+/* подсказки на главной*/
+.os-on_questions h2 {
+    line-height: 1;
+    margin-top: 40px;
+    padding: 0;
+    font-size: 35px;
+    color: #3969aa;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.questions {
+    margin-bottom: 50px;
+}
+ .collapsible {
+    background-color: #b1dcfc;
+    color: #3969AA;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+  }
+  
+   .active, .collapsible:hover {
+    color: #F2FCFF;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: rgb(37, 35, 35);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+   .active:after {
+    content: "\2212";
+  }
+  
+  .answer {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #F2FCFF;
+	color:#3969AA;
+  }  
+
+  .bottom {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+    height: 80px;
+    background-color: rgba(197, 196, 196, 0.877);
+  }
+/* подсказки на главной*/
+
+
+/*личный кабинет*/
+
+* {box-sizing: border-box}
+body {font-family: Corbel;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    background-color: #F2FCFF;
+    width: 15%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: #3969AA;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+	font-family:Corbel;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #fff;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #3969AA;
+	color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 85%;
+    border-left: none;
+    height: 500px;
+}
+
+/*личный кабинет*/
+
+/*оформление заказа*/
+.table-oform{
+float: left;
+}
+/*оформление заказа*/
+
+/*footer*/
+.main-footer{
+	width:100%;
+	height: 30px;
+	float:left;
+	background-color: #69aa;
+	font-family: Corbel;
+	font-size: 14px;
+	color: #9cb4d5;
+	background-color: #3969aa;
+}
+
+.txt-footer{
+	text-align: right;
+	margin-right:75px;
+	margin-top:8px;
+	
+}
+/*footer*/
